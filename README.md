@@ -16,14 +16,15 @@
 </ul>
 
 # ARIMA, SARIMA Models:
-## ARIMA
+## ARIMA:
 <ul>
 <li>Autoregressive Integrated Moving Average, or ARIMA, is a forecasting method for univariate time series data.</li>
 <li>As its name suggests, it supports both an autoregressive and moving average elements. The integrated element refers to differencing allowing the method to support time series data with a trend.</li>
 <li>A problem with ARIMA is that it does not support seasonal data. That is a time series with a repeating cycle.</li>
 <li>ARIMA expects data that is either not seasonal or has the seasonal component removed, e.g. seasonally adjusted via methods such as seasonal differencing.</li>
 </ul>
-## SARIMA
+
+## SARIMA:
 <ul>
 <li>Seasonal Autoregressive Integrated Moving Average, SARIMA or Seasonal ARIMA, is an extension of ARIMA that explicitly supports univariate time series data with a seasonal component.</li>
 <li>It adds three new hyperparameters to specify the autoregression (AR), differencing (I) and moving average (MA) for the seasonal component of the series, as well as an additional parameter for the period of the seasonality.</li>
